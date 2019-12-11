@@ -1,0 +1,31 @@
+{
+  "name": "CLInode",
+  "version": "1.0.0",
+  "description": "Sample project for using CLI using node",
+  "main": "src/index.js",
+  "bin": {
+    "CLInode": "bin/CLInode"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinakarC-practise/CLInode.git"
+  },
+  "keywords": [
+    "cli",
+    "CLInode"
+  ],
+  "dependencies": {
+    "arg": "^4.1.2",
+    "esm": "^3.2.18",
+    "inquirer": "^7.0.0"
+  },
+  "author": "Dinakar Chandolu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinakarC-practise/CLInode/issues"
+  },
+  "homepage": "https://github.com/DinakarC-practise/CLInode#readme"
+}
