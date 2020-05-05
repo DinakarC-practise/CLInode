@@ -7,7 +7,8 @@
     "CLInode": "bin/CLInode"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/MultuUrlClk/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   "dependencies": {
     "arg": "^4.1.2",
     "esm": "^3.2.18",
-    "inquirer": "^7.0.0"
+    "inquirer": "^7.0.0",
+    "puppeteer": "^2.1.1",
+    "puppeteer-cluster": "^0.20.0"
   },
   "author": "Dinakar Chandolu",
   "license": "ISC",
